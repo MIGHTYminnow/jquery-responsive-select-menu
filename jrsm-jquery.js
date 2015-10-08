@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
     // Only proceed if some menuContainer is specified
     if ( '' == menuContainers )
         return false;
-    
+
     // 1. Loop through menu containers
     jQuery.each(menuContainers, function( index, container ) {
 
@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
 
         if ( !jrsm_params.firstItem )
             var label = 'Navigation';
-        
+
         // Add <label> for select
         jQuery('<label />', {
             'text': label,
@@ -74,7 +74,7 @@ function get_child_menu_items( ul, depth ) {
 
     // 2. Loop through menu item <li>'s
     jQuery.each( ul.children('li'), function( index, li ) {
-        
+
         // Get jQuery object of <li>
         var li = jQuery(li);
 
@@ -83,7 +83,7 @@ function get_child_menu_items( ul, depth ) {
         prefix = Array(depth).join(prefix);
 
         // Get <li> value & text
-        var value = li.children('a').attr('href'); 
+        var value = li.children('a').attr('href');
         var text = li.children('a').text();
 
         // Ouput <option>
@@ -100,7 +100,7 @@ function get_child_menu_items( ul, depth ) {
         }
 
         // Add current class to current page item
-        if ( li.hasClass('current_page_item') || li.hasClass('current-menu-item') ) {
+        if ( li.hasClass('current_page_item') || li.hasClass('current-menu-item') || li.hasClass('widget_subpages_current_page') ) {
             option.addClass('current-page');
         }
 
