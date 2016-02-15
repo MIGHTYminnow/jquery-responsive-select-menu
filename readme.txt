@@ -4,7 +4,7 @@ Donate link:       http://mightyminnow.com
 Tags:              responsive, mobile, navigation, menu, select, mobile, tablet, phone, iPhone, android, drop-down, jQuery
 Requires at least: 3.0
 Tested up to:      4.1
-Stable tag:        1.4.2
+Stable tag:        1.5.0
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,7 @@ The perfect solution to make your site responsive for mobile devices like phones
 * English
 * Spanish (Andrew Kurtis, [WebHostingHub](http://www.webhostinghub.com/))
 * German ([Ov3rfly](https://profiles.wordpress.org/ov3rfly/))
+* Russian (Олег П)
 
 Please file a [support request](http://wordpress.org/support/plugin/jquery-responsive-select-menu) if you are interested in translating this plugin into another language.
 
@@ -77,6 +78,9 @@ If checked, the generated drop-down menu won't include any menu items whose `hre
 
 == Changelog ==
 
+= 1.5.0 =
+* Add Russian translation.
+
 = 1.4.2 =
 * Improve behavior for menu links with empty or # href.
 
@@ -111,6 +115,9 @@ If checked, the generated drop-down menu won't include any menu items whose `hre
 * First release
 
 == Upgrade Notice ==
+
+= 1.5.0 =
+* Add Russian translation.
 
 = 1.4.2 =
 * Improve behavior for menu links with empty or # href.
