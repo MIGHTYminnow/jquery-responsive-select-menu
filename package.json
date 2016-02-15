@@ -1,0 +1,25 @@
+{
+  "title": "jQuery Responsive Select Menu",
+  "description": "Automatically turns your standard WordPress navigation menus into responsive select / drop-down menus when the screen is below a certain width.",
+  "version": "1.5.0",
+  "homepage": "http://wordpress.org/plugins/jquery-responsive-select-menu",
+  "author": {
+    "name": "Mickey Kay",
+    "email": "mickey@mickeykaycreative.com",
+    "url": "http://mickeykaycreative.com?utm_source=super-simple-related-posts&utm_medium=plugin-repo&utm_campaign=WordPress%20Plugins"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "load-grunt-tasks": "latest",
+    "grunt-dev-update": "latest",
+    "grunt-prompt": "latest",
+    "grunt-text-replace": "latest",
+    "grunt-wp-readme-to-markdown": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "keywords": []
+}
